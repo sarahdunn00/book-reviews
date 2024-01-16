@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/* nav bar */
+
 header {
     background-color: linen;
     text-align: right;
@@ -29,33 +31,62 @@ a:hover:not(.active) {
     background-color: salmon;
 }
 
-.container {
-    background-color: darkseagreen;
-}
+/* my hero */
 
-.pageTop {
-    background-color: darkseagreen;
-    display: grid;
-    grid-template-columns: auto auto;
-
-  }
-
-  h1 {
-    font-size: 4rem;
-  }
-
-  .title {
-    text-align: center;
-    color: white;
-    padding-top: 100px;
-  }
-
-  .bookImg {
+.pageHead {
+    height: 51vw;
+    width: 100%;
+    background: url(books2.jpg) center/cover no-repeat;
     display: flex;
     justify-content: center;
-  }
+}
 
-  .bok {
-    height: 500px;
-    width: 700px;
-  }
+.headText {
+    background-color: burlywood;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.75rem;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'georgia', serif;
+    font-weight: normal;
+}
+
+/* qualifications */
+.expert {
+    background-color: lavender;
+    width: 100%;
+    height: 30vh;
+}
+
+.expertText {
+    width: 75%;
+    margin: auto;
+}
+
+.expert h3 {
+    margin: 0; /* Reset margin for h3 */
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+    padding-top: 25px;
+}
+
+p {
+    font-family: 'georgia', serif;
+}
+
+/* favorites */
