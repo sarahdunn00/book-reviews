@@ -229,10 +229,9 @@ button {
 footer {
     background-color: #757F62;
     height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 33%);
 }
 
 .foot {
@@ -242,10 +241,9 @@ footer {
     margin: auto;
 }
 
-.logo {
-    height: 90px;
-    width: 90px;
-    padding-top: 10px;
+.lenks, .foot-nav {
+    text-align: center;
+    padding-top: 25px;
 }
 
 .foot-a {
