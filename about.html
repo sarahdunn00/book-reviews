@@ -3,31 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About</title>
+        <title>About.</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     </head>
 <body>
-    <div class="container-about">
-        <header>
+    <div class="header-container">
+        <header class="bg-tan">
             <nav>
                 <a href="index.html" class="header-a">Home</a>
                 <a href="reviews.html" class="header-a">Reviews</a>
                 <a href="favorites.html" class="header-a">Favorites</a>
-                <a href="about.html" class="active-h header-a">About</a>
+                <a href="about.html" class="active header-a">About</a>
             </nav>
-            <h5 class="head-logo">Bookmarked.</h5>
+            <h5 class="head-logo bold-text">Bookmarked.</h5>
         </header>
+    </div>
 
-        <div class="about-container bg-tan">
-            <img src="images/sarah.jpg" alt="A picture of sarah with trees in the background" class="sarah-image">
-            <h1>Hey, I'm Sarah</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Elit at imperdiet dui accumsan sit amet nulla. Maecenas
-                sed enim ut sem viverra aliquet eget sit. Ac tincidunt vitae semper quis lectus nulla at
-                volutpat diam. </p>
+    <div class="container">
+        <div class="bg-tan">
+            <div class="about-container">
+                <div class="sarah-container">
+                    <img src="images/sarah.jpg" alt="A picture of sarah with trees in the background" class="sarah-image">
+                </div>
+                <div class="about-text">
+                    <h1>Hey, I'm Sarah</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Elit at imperdiet dui accumsan sit amet nulla. Maecenas
+                    sed enim ut sem viverra aliquet eget sit. Ac tincidunt vitae semper quis lectus nulla at
+                    volutpat diam. </p>
+                </div>
+            </div>
         </div>
 
         <div class="connect">
@@ -65,21 +73,21 @@
             </form>
         </div>
 
-
-        <footer>
-            <h5 class="foot">Bookmarked.</h5>
-            <div class="lenks">
-                <a href="https://app.thestorygraph.com/profile/sarahdunn" class="foot-a">StoryGraph</a>
-                <a href="https://www.linkedin.com/feed/" class="foot-a">LinkedIn</a>
-            </div>
-
-            <div class="foot-nav">
-                <a href="index.html" class="foot-a">Home</a>
-                <a href="reviews.html" class="foot-a">Reviews</a>
-                <a href="favorites.html" class="foot-a">Favorites</a>
-                <a href="about.html" class="foot-a">About</a>
-            </div>
-        </footer>
     </div>
+
+    <footer>
+        <h5 class="foot bold-text">Bookmarked.</h5>
+        <div class="lenks">
+            <a href="https://app.thestorygraph.com/profile/sarahdunn" class="foot-a">StoryGraph</a>
+            <a href="https://www.linkedin.com/feed/" class="foot-a">LinkedIn</a>
+        </div>
+
+        <div class="foot-nav">
+            <a href="index.html" class="foot-a">Home</a>
+            <a href="reviews.html" class="foot-a">Reviews</a>
+            <a href="favorites.html" class="foot-a">Favorites</a>
+            <a href="about.html" class="foot-a">About</a>
+        </div>
+    </footer>
 </body>
 </html>
