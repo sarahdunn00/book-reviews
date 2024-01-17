@@ -8,51 +8,119 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
 <body>
     <div class="container">
 
         <header>
             <nav>
-                <a href="index.html" class="active">Home</a>
-                <a href="reviews.html">Reviews</a>
-                <a href="favorites.html">Favorites</a>
-                <a href="about.html">About</a>
+                <a href="index.html" class="active-h header-a">Home</a>
+                <a href="reviews.html" class="header-a">Reviews</a>
+                <a href="favorites.html" class="header-a">Favorites</a>
+                <a href="about.html" class="header-a">About</a>
             </nav>
         </header>
 
-        <div class="pageHead">
-            <div class="headText">
-                <h1 class="mainText">Sarah's Book Reviews</h1>
-                <h2>From a self proclaimed book expert</h2>
+        <div class="bg-tan home-head">
+            <h1>Bookmarked.</h1>
+            <h2>A personal collection of favortites from a self proclaimed expert</h2>
+        </div>
+
+        <div  class="welcome">
+            <h3>Welcome to Bookmarked.</h3>
+            <p class="sub1">A snapshot of Sarah's book reviews as of January 2024</p>
+            <p class="center-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pharetra dolor.
+                Etiam bibendum id tortor non congue. Duis quis diam a nulla pharetra pellentesque. Donec
+                sollicitudin at odio consectetur pulvinar. Aliquam lobortis dolor ac diam faucibus sodales.</p>
+            <div class="topic-container">
+                <div class="topic first-topic">
+                    <p class="sub2">Current Read</p>
+                    <h4>What's Up Next</h4>
+                    <p class="topic-p">Lorem ipsum dolor sit amet, efficitur ut nisl posuere, condimentum condimentum ligula.
+                        Praesent sed tellus at arcu tincidunt consectetur et eget tortor. Etiam purus ligula,
+                        elementum quis neque vitae, fermentum faucibus augue. Nunc lobortis mattis aliquam faucibus purus.</p>
+                </div>
+                <div class="topic second-topic">
+                    <p class="sub2">Featured</p>
+                    <h4>Sarah's Top Picks</h4>
+                    <p class="topic-p">Lorem ipsum dolor sit amet, fermentum eu mi a, hendrerit pellentesque risus. Nunc lobortis
+                        mattis aliquam faucibus purus. Donec tristique, lacus sed sodales cursus, metus justo pretium
+                        felis, eu vulputate libero turpis non purus. Suspendisse felis nisi, dignissim ac eleifend et,
+                        consequat vitae ex.</p>
+                </div>
+                <div class="topic second-topic">
+                    <p class="sub2">Reviews</p>
+                    <h4>Complete reviews</h4>
+                    <p class="topic-p">Lorem ipsum dolor sit amet, nec ligula nec quam pretium pretium eget eget justo. Sed dui
+                        tortor, egestas et sapien quis, eleifend pharetra lectus. Nunc lobortis mattis aliquam
+                        faucibus purus. Donec tincidunt quam vel orci vulputate congue. Phasellus bibendum posuere
+                        sem, nec vulputate metus tincidunt ac.</p>
+                </div>
             </div>
         </div>
 
-        <div class="expert">
-            <div class="expertText">
-                <h3>Why Listen to me?</h3>
-                <p>Okay, maybe I’m not really a book expert, but I have been an avid reader for a while now. Not to brag, but I
-                got my first library card in first grade, and completed all the summer reading challenges they hosted. I’m no
-                refined reader by any means the only classics I’ve really read were assigned readings in high school. But I
-                think that makes me the perfect person to get your reviews from. Sure, classics are great pieces of work, but
-                sometimes you want to read about zombies vs aliens, or dragon tamers, or trashy romance novels. And that's
-                where my expertise lies</p>
+        <div class="green-bg">
+            <div class="quote-container">
+                <h5 class="quote">"She took the facts and in a natural way charges them with tension; she intensified
+                    reality as she reduced it to words, she injected it with energy."</h5>
+                <p class="quote-author">- Elena Ferrante</p>
             </div>
         </div>
 
-        <div class="fav">
-            <div class="favOne">
-                <h4>Review one</h4>
-            </div>
-            <div class="favTwo">
-                <h4>Review two</h4>
-            </div>
-            <div class="favThree">
-                <h4>Review three</h4>
-            </div>
+        <div class="expertise">
+            <p class="sub1 listen-spacing">Why Listen to Sarah?</p>
+            <h3 class="expert-spacing">My Expertise</h3>
+            <p class="center-p">Lorem ipsum dolor sit amet, elit rutrum rhoncus molestie, dolor nisi mollis eros, a semper ex eros
+                eu ex. Nulla at luctus nunc, at ultrices nisi. Sed ultricies sem nec eros semper, tincidunt blandit
+                eros eleifend. Integer varius velit vel eros dapibus iaculis. Quisque ullamcorper condimentum dui,
+                sit amet pharetra diam molestie ac. Mauris mollis consectetur metus sed facilisis. Phasellus id dictum
+                leo, venenatis rhoncus tortor. Suspendisse potenti. Mauris at pellentesque urna. Suspendisse ultrices
+                sed dui sit amet ultricies
+            </p>
+
+                <form>
+                    <fieldset>
+                        <h4>Join the Bookmarked community</h4>
+                        <p class="sub2">And be the first to hear about new reviews, monthly top picks, and more!</p>
+
+                        <div class="form-container">
+                            <div class="name-inputs">
+                                <div class="labels">
+                                    <label for="firstName">First</label>
+                                    <label for="lastName">Last</label>
+                                </div>
+                                <div class="inputs">
+                                    <input type="text" id="firstName" name="first-name">
+                                    <input type="text" id="lastName" name="last-name">
+                                </div>
+                            </div>
+                            <div class="email-input">
+                                <label for="email" class="sep-label">Email</label>
+                                <input type="email" name="email" id="email" class="email">
+                            </div>
+                        </div>
+
+                        <button>Submit</button>
+                    </fieldset>
+                </form>
         </div>
 
+        <footer>
+            <h5 class="foot">Bookmarked.</h5>
+            <div>
+                <a href="https://app.thestorygraph.com/profile/sarahdunn" class="foot-a">StoryGraph</a>
+                <img src="images/Logo.svg" alt="" class="logo">
+                <a href="https://www.linkedin.com/feed/" class="foot-a">LinkedIn</a>
+            </div>
 
+            <div class="foot-nav">
+                <a href="index.html" class="foot-a">Home</a>
+                <a href="reviews.html" class="foot-a">Reviews</a>
+                <a href="favorites.html" class="foot-a">Favorites</a>
+                <a href="about.html" class="foot-a">About</a>
+            </div>
+        </footer>
     </div>
-
 </body>
 </html>
